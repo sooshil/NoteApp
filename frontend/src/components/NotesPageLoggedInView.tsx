@@ -3,10 +3,10 @@ import { Button, Col, Row, Spinner } from "react-bootstrap";
 import { FaPlus } from "react-icons/fa";
 import { Note as NoteModel } from '../models/note';
 import * as NotesApi from "../network/notes_api";
-import AddEditNoteDialog from "./AddEditNoteDialog";
-import Note from "./Note";
 import styles from "../styles/NotesPage.module.css";
 import stylesUtil from "../styles/utils.module.css";
+import AddEditNoteDialog from "./AddEditNoteDialog";
+import Note from "./Note";
 
 const NotesPageLoggedInView = () => {
 
